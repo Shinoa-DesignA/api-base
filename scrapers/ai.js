@@ -1,1 +1,443 @@
-const _0x3a5fb7=_0x264d;function _0x5ac1(){const _0xa91d2b=['https://thinkany.ai/api','simple','title','cheerio','result','json','yousearch','load','post','general','text','https://luminai.siputzx.my.id/sesi','map','replace','https://aoyo.ai/Api/AISearch/AISearch','error\x20kang!','/new-conversation','aoyo','parse','random','14AgZOfn','https://search.lepton.run/api/','1917224Wuovko','374397WqghdH','gpt4','application/x-www-form-urlencoded','sitelinks','Error\x20fetching\x20LLM\x20response:\x20','error','336470LOVCEH','/chat','search','find','#gptans','3sftipG','0123456789','data','Error\x20fetching:','message','toString','split','Search\x20term:\x20\x22{searchTerm}\x22\x0a\x0aMake\x20your\x20language\x20less\x20formal\x20and\x20use\x20emoticons.\x0aI\x20want\x20you\x20to\x20always\x20use\x20Indonesian\x20slang\x20from\x20Jakarta\x20where\x20the\x20words\x20\x22you\x22\x20and\x20\x22anda\x22\x20are\x20replaced\x20with\x20\x22lu\x22\x20and\x20the\x20word\x20I\x20is\x20replaced\x20with\x20\x22gw\x22.\x0aCreate\x20a\x20summary\x20of\x20the\x20search\x20results\x20in\x20three\x20paragraphs\x20with\x20reference\x20numbers,\x20which\x20you\x20then\x20list\x20numbered\x20at\x20the\x20bottom.\x0aInclude\x20emojis\x20in\x20the\x20summary.\x0aBe\x20sure\x20to\x20include\x20the\x20reference\x20numbers\x20in\x20the\x20summary.\x0aBoth\x20in\x20the\x20text\x20of\x20the\x20summary\x20and\x20in\x20the\x20reference\x20list,\x20the\x20reference\x20numbers\x20should\x20look\x20like\x20this:\x20\x22(1)\x22.\x0aFormulate\x20simple\x20sentences.\x0aInclude\x20blank\x20lines\x20between\x20the\x20paragraphs.\x0aDo\x20not\x20reply\x20with\x20an\x20introduction,\x20but\x20start\x20directly\x20with\x20the\x20summary.\x0aInclude\x20emojis\x20in\x20the\x20summary.\x0aAt\x20the\x20end\x20write\x20a\x20hint\x20text\x20where\x20I\x20can\x20find\x20search\x20results\x20as\x20comparison\x20with\x20the\x20above\x20search\x20term\x20with\x20a\x20link\x20to\x20Google\x20search\x20in\x20this\x20format\x20`See\x20Google\x20results:\x20`\x20and\x20append\x20the\x20link.\x0aBelow\x20write\x20a\x20tip\x20how\x20I\x20can\x20optimize\x20the\x20search\x20results\x20for\x20my\x20search\x20query.\x0aI\x20show\x20you\x20in\x20which\x20format\x20this\x20should\x20be\x20structured:\x0a\x0a```\x0a<Summary\x20of\x20search\x20results\x20with\x20reference\x20numbers>\x0a\x0aSources:\x0a(1)\x20<URL\x20of\x20the\x20first\x20reference>\x0a(2)\x20<URL\x20of\x20the\x20second\x20reference>\x0a\x0a<Hint\x20text\x20for\x20further\x20search\x20results\x20with\x20Google\x20link>\x0a<Tip>\x0a```\x0a\x0aHere\x20are\x20the\x20search\x20results:\x0a{searchResults}','13508010pTIsBh','link','Mozilla/5.0\x20(Linux;\x20Android\x2010;\x20K)\x20AppleWebKit/537.36\x20(KHTML,\x20like\x20Gecko)\x20Chrome/125.0.0.0\x20Mobile\x20Safari/537.36','/api','70b','claude-3-haiku','response','2201906ptSEKQ','letmegpt','No\x20LLM\x20response\x20found.','1620948vUgLpM','Mozilla/5.0\x20(iPhone;\x20CPU\x20iPhone\x20OS\x2013_1\x20like\x20Mac\x20OS\x20X)\x20AppleWebKit/605.1.15\x20(KHTML,\x20like\x20Gecko)\x20Version/13.0.1\x20Mobile/15E148','https://kingnish-opengpt-4o.hf.space/queue/data?session_hash=','thinkany','mode','luminai','create','Error\x20fetching\x20data:','text/event-stream','stringify','charAt','https://letmegpt.com/search?q=','trim','Error:','organic','https://aoyo.ai/search/?q=','user','SEARXNG','exec','all','log','length','floor','https://isou.chat/api','id-ID','72ZFDdRq','https://kingnish-opengpt-4o.hf.space/queue/join?__theme=light','event_id','15128080BluoIj','llm_model','get','query','some','application/json','slice','snippet','uuid','Top\x20P\x20Sampling','content','https://thinkany.ai/'];_0x5ac1=function(){return _0xa91d2b;};return _0x5ac1();}(function(_0x2bda9c,_0x38b22b){const _0x4907eb=_0x264d,_0x1d77a8=_0x2bda9c();while(!![]){try{const _0x1bd982=parseInt(_0x4907eb(0xd1))/0x1+-parseInt(_0x4907eb(0xeb))/0x2*(-parseInt(_0x4907eb(0xdc))/0x3)+-parseInt(_0x4907eb(0xee))/0x4+-parseInt(_0x4907eb(0xd7))/0x5*(parseInt(_0x4907eb(0x107))/0x6)+parseInt(_0x4907eb(0xce))/0x7*(parseInt(_0x4907eb(0xd0))/0x8)+-parseInt(_0x4907eb(0xe4))/0x9+parseInt(_0x4907eb(0x10a))/0xa;if(_0x1bd982===_0x38b22b)break;else _0x1d77a8['push'](_0x1d77a8['shift']());}catch(_0x2d11fd){_0x1d77a8['push'](_0x1d77a8['shift']());}}}(_0x5ac1,0xb8091));const axios=require('axios'),cheerio=require(_0x3a5fb7(0x119)),qs=require('qs'),fetch=require('fs');exports[_0x3a5fb7(0xf3)]=async(_0x895a27,_0x345433)=>{const _0x3dbc69=_0x3a5fb7;try{const _0x529aa6=await axios[_0x3dbc69(0x11e)](_0x3dbc69(0xc5),{'content':_0x895a27,'user':_0x345433});return _0x529aa6[_0x3dbc69(0xde)][_0x3dbc69(0x11a)];}catch(_0x12d021){console[_0x3dbc69(0xd6)](_0x3dbc69(0xdf),_0x12d021);throw _0x12d021;}},exports[_0x3a5fb7(0xd2)]=async(_0x11e051,_0x152493,_0x38e9f5)=>{const _0x2a2cb9=_0x3a5fb7;try{}catch(_0x2af6e3){console[_0x2a2cb9(0xd6)]('Error\x20fetching:',_0x2af6e3);throw _0x2af6e3;}};function generateRandomID(_0x595496){const _0x4057b2=_0x3a5fb7,_0x6d4e69='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';let _0x448c16='';for(let _0x39d17c=0x0;_0x39d17c<_0x595496;_0x39d17c++){const _0x4b0bee=Math[_0x4057b2(0x104)](Math[_0x4057b2(0xcd)]()*_0x6d4e69[_0x4057b2(0x103)]);_0x448c16+=_0x6d4e69[_0x4057b2(0xf8)](_0x4b0bee);}return _0x448c16;}function _0x264d(_0x4013f8,_0x115196){const _0x5ac16e=_0x5ac1();return _0x264d=function(_0x264d25,_0x54b636){_0x264d25=_0x264d25-0xc5;let _0x3307a2=_0x5ac16e[_0x264d25];return _0x3307a2;},_0x264d(_0x4013f8,_0x115196);}exports['leptonai']=async _0x80924f=>{const _0x4f477f=_0x3a5fb7;try{const _0x4ab3ef=axios[_0x4f477f(0xf4)]({'baseURL':_0x4f477f(0xcf),'headers':{'Content-Type':_0x4f477f(0x10f)}}),_0x7c8d95=generateRandomID(0xa),_0x4f7a8c={'query':_0x80924f,'rid':_0x7c8d95},_0x514758=await _0x4ab3ef[_0x4f477f(0x11e)](_0x4f477f(0x10d),_0x4f7a8c),_0x585470=/__LLM_RESPONSE__([\s\S]*?)__RELATED_QUESTIONS__/,_0x25fac0=_0x514758[_0x4f477f(0xde)]['match'](_0x585470);if(_0x25fac0&&_0x25fac0[0x1]){let _0x22a778=_0x25fac0[0x1][_0x4f477f(0xfa)]();return _0x22a778=_0x22a778['replace'](/__LLM_RESPONSE__|__RELATED_QUESTIONS__/g,'')[_0x4f477f(0xfa)](),_0x22a778;}else throw new Error(_0x4f477f(0xed));}catch(_0x159eb6){throw new Error(_0x4f477f(0xd5)+_0x159eb6[_0x4f477f(0xe0)]);}},exports[_0x3a5fb7(0xec)]=async _0x13ea68=>{const _0x271883=_0x3a5fb7,_0x3fa7e4=encodeURIComponent(_0x13ea68),_0x5beb5e=_0x271883(0xf9)+_0x3fa7e4;try{const _0x181a6f=await axios['get'](_0x5beb5e),_0x490278=cheerio[_0x271883(0x11d)](_0x181a6f['data']);return _0x490278(_0x271883(0xdb))[_0x271883(0x120)]();}catch(_0xe2c08e){return console[_0x271883(0x102)](_0x271883(0xfb),_0xe2c08e),null;}},exports[_0x3a5fb7(0xf1)]=async _0x52f331=>{const _0x1d57e5=_0x3a5fb7;try{const _0x4a8b81=axios[_0x1d57e5(0xf4)]({'baseURL':_0x1d57e5(0x116),'headers':{'Content-Type':_0x1d57e5(0x10f),'User-Agent':_0x1d57e5(0xe6),'Referer':_0x1d57e5(0x115)}}),_0x4674f0={'content':_0x52f331,'locale':'en','mode':_0x1d57e5(0xd9),'model':_0x1d57e5(0xe9),'source':_0x1d57e5(0x101)},{data:_0x4f1df1}=await _0x4a8b81[_0x1d57e5(0x11e)](_0x1d57e5(0xca),_0x4674f0),_0x4bd17f={'role':_0x1d57e5(0xfe),'content':_0x4f1df1[_0x1d57e5(0xde)][_0x1d57e5(0x114)],'conv_uuid':_0x4f1df1[_0x1d57e5(0xde)][_0x1d57e5(0x112)],'mode':_0x4f1df1[_0x1d57e5(0xde)][_0x1d57e5(0xf2)],'is_new':!![],'model':_0x4f1df1['data'][_0x1d57e5(0x10b)]},_0x29832a=await _0x4a8b81[_0x1d57e5(0x11e)](_0x1d57e5(0xd8),_0x4bd17f);return _0x29832a[_0x1d57e5(0xde)];}catch(_0x4ab6ea){console['error'](_0x1d57e5(0xfb),_0x4ab6ea);throw _0x4ab6ea;}},exports['isouchat']=async _0x1281e7=>{const _0x39baf0=_0x3a5fb7;try{const _0x222216=axios[_0x39baf0(0xf4)]({'baseURL':_0x39baf0(0x105),'headers':{'Accept':_0x39baf0(0xf6),'Content-Type':'application/json'}}),_0x530673={'stream':!![],'model':'gpt-3.5-turbo','mode':_0x39baf0(0x117),'language':_0x39baf0(0x101),'categories':[_0x39baf0(0x11f)],'engine':_0x39baf0(0xff),'locally':![],'reload':![]},{data:_0x36de8d}=await _0x222216[_0x39baf0(0x11e)]('/search?q='+_0x1281e7,_0x530673);return extractAnswers(_0x36de8d);}catch(_0x554647){return console[_0x39baf0(0xd6)](_0x39baf0(0xf5),_0x554647),null;}};function extractAnswers(_0x231f28){const _0x5b38ad=_0x3a5fb7;let _0x4ca405='';const _0x53ce03=/data:\{"data":"\{\\?"answer\\?":\\"(.*?)\\"/g;let _0xe08a2c;while((_0xe08a2c=_0x53ce03[_0x5b38ad(0x100)](_0x231f28))!==null){_0xe08a2c[0x1]&&(_0x4ca405+=_0xe08a2c[0x1]);}return _0x4ca405;}exports[_0x3a5fb7(0x11c)]=async _0xa8f754=>{const _0x215f86=_0x3a5fb7,_0x37086f=axios[_0x215f86(0xf4)]({'baseURL':'https://app.yoursearch.ai','headers':{'Content-Type':_0x215f86(0x10f)}}),_0x164016={'searchTerm':_0xa8f754,'promptTemplate':_0x215f86(0xe3),'searchParameters':'{}','searchResultTemplate':'[{order}]\x20\x22{snippet}\x22\x0aURL:\x20{link}'};try{const _0x59d0f1=await _0x37086f[_0x215f86(0x11e)](_0x215f86(0xe7),_0x164016);return _0x59d0f1['data'][_0x215f86(0xea)];}catch(_0x306996){console['error'](_0x215f86(0xfb),_0x306996);throw _0x306996;}};function generateRandomString(_0x401ef7){const _0x147b35=_0x3a5fb7,_0x20b742='abcdef0123456789';let _0x540eaa='';for(let _0x7c984a=0x0;_0x7c984a<_0x401ef7;_0x7c984a++){_0x540eaa+=_0x20b742[_0x147b35(0xf8)](Math[_0x147b35(0x104)](Math[_0x147b35(0xcd)]()*_0x20b742[_0x147b35(0x103)]));}return _0x540eaa;}function generateRandomNumberString(_0x3f3a0b){const _0x5e9eab=_0x3a5fb7,_0xb3c130=_0x5e9eab(0xdd);let _0x3d6247='';for(let _0x468080=0x0;_0x468080<_0x3f3a0b;_0x468080++){_0x3d6247+=_0xb3c130['charAt'](Math[_0x5e9eab(0x104)](Math[_0x5e9eab(0xcd)]()*_0xb3c130[_0x5e9eab(0x103)]));}return _0x3d6247;}async function getSearchResults(_0x18b103){const _0x2a5082=_0x3a5fb7,_0x4daff8='https://aoyo.ai/Api/AISearch/Source',_0x493fa1={'q':_0x18b103,'num':0x14,'hl':_0x2a5082(0x106)},_0x1d99bd={'Content-Type':_0x2a5082(0xd3),'Accept':'application/json,\x20text/plain,\x20*/*'};try{const _0x2d7f80=await axios[_0x2a5082(0x11e)](_0x4daff8,qs['stringify'](_0x493fa1),{'headers':_0x1d99bd});return _0x2d7f80[_0x2a5082(0xde)][_0x2a5082(0xfc)];}catch(_0x2b60a5){return[];}}exports[_0x3a5fb7(0xcb)]=async _0x1895f6=>{const _0x191e52=_0x3a5fb7,_0x23c97f=_0x1895f6,_0x59164c=await getSearchResults(_0x23c97f),_0x2cea8b=_0x59164c[_0x191e52(0xc6)]((_0x5c8549,_0x214e8d)=>({'title':_0x5c8549[_0x191e52(0x118)],'link':_0x5c8549[_0x191e52(0xe5)],'snippet':_0x5c8549[_0x191e52(0x111)],'sitelinks':_0x5c8549[_0x191e52(0xd4)]?_0x5c8549[_0x191e52(0xd4)][_0x191e52(0xc6)](_0x473432=>({'title':_0x473432['title'],'link':_0x473432['link']})):[],'position':_0x214e8d+0x1})),_0x1727ee=_0x191e52(0xc8),_0x3b9409={'content':_0x1895f6,'id':generateRandomString(0x20),'language':'id-ID','engineContent':JSON[_0x191e52(0xf7)](_0x2cea8b),'randomNumber':generateRandomNumberString(0x11)},_0x4992d2={'Content-Type':'application/x-www-form-urlencoded','User-Agent':_0x191e52(0xe6),'Referer':_0x191e52(0xfd)+encodeURIComponent(_0x1895f6)};try{const _0x4e8dea=await axios['post'](_0x1727ee,qs[_0x191e52(0xf7)](_0x3b9409),{'headers':_0x4992d2});return _0x4e8dea[_0x191e52(0xde)]['replace'](/\[START\][\s\S]*$/g,'')[_0x191e52(0xfa)]();}catch(_0x28aaec){return{'error':_0x28aaec['message']};}},exports['llama3']=async(_0x41f572,_0x4d6efa,_0x106e08)=>{const _0x2fe938=_0x3a5fb7;if(![_0x2fe938(0xe8),'8b'][_0x2fe938(0x10e)](_0x59bc6f=>_0x106e08==_0x59bc6f))_0x106e08=_0x2fe938(0xe8);try{const _0x5472e8='https://llama3-enggan-ngoding.vercel.app/api/llama',_0x416ee2={'messages':[{'role':'system','content':_0x4d6efa},{'role':_0x2fe938(0xfe),'content':_0x41f572}],'model':_0x106e08},_0x325b50=await fetch(_0x5472e8,{'method':'POST','headers':{'Content-Type':_0x2fe938(0x10f),'User-Agent':_0x2fe938(0xef)},'body':JSON[_0x2fe938(0xf7)](_0x416ee2)}),_0xddda7=await _0x325b50[_0x2fe938(0x11b)]();return _0xddda7;}catch(_0x1e3c91){console[_0x2fe938(0xd6)](_0x2fe938(0xfb),_0x1e3c91);throw _0x1e3c91;}},exports['gpt4o']=async _0x1e181d=>{const _0x3f0511=_0x3a5fb7;let _0x383857=Math[_0x3f0511(0xcd)]()[_0x3f0511(0xe1)](0x24)['substring'](0x2)[_0x3f0511(0x110)](0x1),_0x2cfe9c=await axios[_0x3f0511(0x11e)]('https://kingnish-opengpt-4o.hf.space/run/predict?__theme=light',{'data':[{'text':_0x1e181d,'files':[]}],'event_data':null,'fn_index':0x3,'trigger_id':0x22,'session_hash':_0x383857}),_0x27cc18=await axios[_0x3f0511(0x11e)](_0x3f0511(0x108),{'data':[null,null,'idefics2-8b-chatty',_0x3f0511(0x113),0.5,0x1000,0x1,0.9,!![]],'event_data':null,'fn_index':0x5,'trigger_id':0x22,'session_hash':_0x383857}),_0x5b83e4=_0x27cc18['data'][_0x3f0511(0x109)],_0x22a6fc=await axios[_0x3f0511(0x10c)](_0x3f0511(0xf0)+_0x383857);const _0x874bbd=_0x22a6fc[_0x3f0511(0xde)][_0x3f0511(0xe2)]('\x0a'),_0x413854=_0x874bbd[_0x3f0511(0xda)](_0x5ab3ab=>_0x5ab3ab['includes']('process_completed'));if(_0x413854){const _0x3c60a0=JSON[_0x3f0511(0xcc)](_0x413854[_0x3f0511(0xc7)]('data:\x20',''));let _0x42687c=_0x3c60a0['output'][_0x3f0511(0xde)],_0xcd5c94=_0x42687c[0x0][0x0][0x1];return _0xcd5c94;}else return _0x3f0511(0xc9);};
+const axios = require("axios");
+const cheerio = require("cheerio");
+const qs = require("qs");
+const fetch = require("fs");
+const { G4F } = require("g4f");
+let g4f = new G4F();
+
+exports.luminai = async (q, username) => {
+    try {
+        const response = await axios.post("https://luminai.siputzx.my.id/sesi", {
+        content: q,
+        user: username,
+        });
+        return response.data.result;
+    } catch (error) {
+    console.error("Error fetching:", error);
+    throw error;
+    }
+};
+
+//=========================================//
+//BATAS LUMINAI//
+//=========================================//
+
+exports.gpt4 = async (system, assistant, user) => {
+    try {
+        const messages = [
+            { role: "system", content: system },
+            { role: "asistant", content: assistant  },
+            { role: "user", content: usert }
+        ];
+        let res = await g4f.chatCompletion(messages)
+        return  res;
+    } catch (e) {
+    console.error("Error fetching:", e);
+    throw e;
+    }
+}
+
+//=========================================//
+//BATAS GPT4//
+//=========================================//
+
+function generateRandomID(length) {
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+    let randomID = '';
+    for (let i = 0; i < length; i++) {
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        randomID += characters.charAt(randomIndex);
+    }
+    return randomID;
+}
+
+/**
+  * Scraper By QanyPaw
+  * Forbidden to sell and delete my wm, respect the creator
+*/
+
+/**
+  * Scraper By QanyPaw
+  * Forbidden to sell and delete my wm, respect the creator
+*/
+
+exports.leptonai = async (query) => {
+    try {
+        const api = axios.create({
+            baseURL: 'https://search.lepton.run/api/',
+            headers: {
+            'Content-Type': 'application/json'
+            }
+        });
+        const rid = generateRandomID(10);
+        const postData = { query, rid };
+        const response = await api.post('query', postData);
+    
+        const llmResponseRegex = /__LLM_RESPONSE__([\s\S]*?)__RELATED_QUESTIONS__/;
+        const llmResponseMatch = response.data.match(llmResponseRegex);
+
+        if (llmResponseMatch && llmResponseMatch[1]) {
+        let llmResponse = llmResponseMatch[1].trim();
+        llmResponse = llmResponse.replace(/__LLM_RESPONSE__|__RELATED_QUESTIONS__/g, '').trim();
+        return llmResponse;
+        } else {
+        throw new Error("No LLM response found.");
+        }
+    } catch (error) {
+    throw new Error('Error fetching LLM response: ' + error.message);
+    }
+}
+
+//=========================================//
+//BATAS LEPTONAI//
+//=========================================//
+
+exports.letmegpt = async (query) => {
+    const encodedQuery = encodeURIComponent(query);
+    const url = `https://letmegpt.com/search?q=${encodedQuery}`;
+
+    try {
+        const response = await axios.get(url);
+        const $ = cheerio.load(response.data);
+        return $('#gptans').text();
+    } catch (error) {
+    console.log('Error:', error);
+    return null;
+    }
+}
+
+//=========================================//
+//BATAS LETMEGPT//
+//=========================================//
+
+/**
+  * Scraper By QanyPaw
+  * Forbidden to sell and delete my wm, respect the creator
+*/
+
+exports.thinkany = async (content) => {
+    try {
+        const api = axios.create({
+            baseURL: 'https://thinkany.ai/api',
+            headers: {
+            'Content-Type': 'application/json',
+            'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36',
+            'Referer': 'https://thinkany.ai/'
+            }
+        });
+  
+        const newConversationData = { content, locale: "en", mode: "search", model: "claude-3-haiku", source: "all" };
+        const { data } = await api.post('/new-conversation', newConversationData);
+
+        const chatData = {
+            role: "user",
+            content: data.data.content,
+            conv_uuid: data.data.uuid,
+            mode: data.data.mode,
+            is_new: true,
+            model: data.data.llm_model
+        };
+
+        const chatResponse = await api.post('/chat', chatData);
+        return chatResponse.data;
+    } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+}
+
+//=========================================//
+//BATAS THINKANY//
+//=========================================//
+
+/**
+  * Scraper By QanyPaw
+  * Thank To Najmy
+  * Forbidden to sell and delete my wm, respect the creator
+*/
+
+exports.isouchat = async (q) => {
+    try {
+        const api = axios.create({
+            baseURL: "https://isou.chat/api",
+            headers: {
+            Accept: "text/event-stream",
+            "Content-Type": "application/json",
+            }
+        });
+        
+        const requestData = {
+            stream: true,
+            model: "gpt-3.5-turbo",
+            mode: "simple",
+            language: "all",
+            categories: ["general"],
+            engine: "SEARXNG",
+            locally: false,
+            reload: false,
+        };
+
+        const { data } = await api.post("/search?q=" + q, requestData);
+        return extractAnswers(data);
+    } catch (error) {
+    console.error("Error fetching data:", error);
+    return null;
+  }
+}
+
+function extractAnswers(data) {
+    let answers = "";
+    const regex = /data:\{"data":"\{\\?"answer\\?":\\"(.*?)\\"/g;
+    let match;
+    while ((match = regex.exec(data)) !== null) {
+        if (match[1]) {
+            answers += match[1];
+        }
+    }
+    return answers;
+}
+
+//=========================================//
+//BATAS ISOUCHAT//
+//=========================================//
+
+/**
+  * Scraper By QanyPaw
+  * Forbidden to sell and delete my wm, respect the creator
+*/
+
+exports.yousearch = async (searchTerm) => {
+    const website = axios.create({
+        baseURL: 'https://app.yoursearch.ai',
+        headers: {
+        'Content-Type': 'application/json'
+        }
+    });
+    const requestData = {
+        searchTerm: searchTerm,
+        promptTemplate: `Search term: "{searchTerm}"
+
+Make your language less formal and use emoticons.
+I want you to always use Indonesian slang from Jakarta where the words "you" and "anda" are replaced with "lu" and the word I is replaced with "gw".
+Create a summary of the search results in three paragraphs with reference numbers, which you then list numbered at the bottom.
+Include emojis in the summary.
+Be sure to include the reference numbers in the summary.
+Both in the text of the summary and in the reference list, the reference numbers should look like this: "(1)".
+Formulate simple sentences.
+Include blank lines between the paragraphs.
+Do not reply with an introduction, but start directly with the summary.
+Include emojis in the summary.
+At the end write a hint text where I can find search results as comparison with the above search term with a link to Google search in this format \`See Google results: \` and append the link.
+Below write a tip how I can optimize the search results for my search query.
+I show you in which format this should be structured:
+
+\`\`\`
+<Summary of search results with reference numbers>
+
+Sources:
+(1) <URL of the first reference>
+(2) <URL of the second reference>
+
+<Hint text for further search results with Google link>
+<Tip>
+\`\`\`
+
+Here are the search results:
+{searchResults}`,
+    searchParameters: "{}",
+    searchResultTemplate: `[{order}] "{snippet}"
+URL: {link}`
+    };
+
+    try {
+        const response = await website.post('/api', requestData);
+        return response.data.response;
+    } catch (error) {
+    console.error('Error:', error);
+    throw error;
+    }
+};
+
+//=========================================//
+//BATAS YOUSEARCH//
+//=========================================//
+
+function generateRandomString(length) {
+    const characters = 'abcdef0123456789';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return result;
+}
+
+/**
+  * Scraper By QanyPaw
+  * Forbidden to sell and delete my wm, respect the creator
+*/
+
+function generateRandomNumberString(length) {
+    const characters = '0123456789';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return result;
+}
+
+async function getSearchResults(query) {
+    const url = 'https://aoyo.ai/Api/AISearch/Source';
+    const requestData = {
+        q: query,
+        num: 20,
+        hl: 'id-ID'
+    };
+
+    const headers = {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Accept': 'application/json, text/plain, */*'
+    };
+
+    try {
+        const response = await axios.post(url, qs.stringify(requestData), { headers });
+        return response.data.organic;
+    } catch (error) {
+        return [];
+    }
+}
+
+exports.aoyo = async (content) => {
+    const searchQuery = content;
+    const searchResults = await getSearchResults(searchQuery);
+
+    const engineContent = searchResults.map((result, index) => ({
+        title: result.title,
+        link: result.link,
+        snippet: result.snippet,
+        sitelinks: result.sitelinks ? result.sitelinks.map(link => ({
+            title: link.title,
+            link: link.link
+        })) : [],
+        position: index + 1
+    }));
+
+    const url = 'https://aoyo.ai/Api/AISearch/AISearch';
+    const requestData = {
+        content: content,
+        id: generateRandomString(32),
+        language: 'id-ID',
+        engineContent: JSON.stringify(engineContent),
+        randomNumber: generateRandomNumberString(17)
+    };
+
+    const headers = {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36',
+        'Referer': 'https://aoyo.ai/search/?q=' + encodeURIComponent(content)
+    };
+
+    try {
+        const response = await axios.post(url, qs.stringify(requestData), { headers });
+        return response.data.replace(/\[START\][\s\S]*$/g, '').trim();
+
+    } catch (error) {
+        return { error: error.message };
+    }
+}
+
+//=========================================//
+//BATAS AOYO//
+//=========================================//
+
+/*
+
+Github: https://github.com/khrlmstfa
+
+*Please don't remove this watermark, try to respect developer @Irull*
+
+*/
+
+exports.llama3 = async (query, prompt, model) => {
+    if (!["70b", "8b"].some(qq => model == qq)) model = "70b"; //correct
+    try {
+        const BASE_URL = 'https://llama3-enggan-ngoding.vercel.app/api/llama'; //@Irulll
+        const payload = {
+            messages: [
+            {
+                role: "system",
+                content: prompt
+            },
+            {
+                role: "user",
+                content: query
+            }
+            ],
+            model: model
+        };
+        const response = await fetch(BASE_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148',
+            },
+            body: JSON.stringify(payload),
+        });
+        const data = await response.json();
+        return data;
+    } catch (error) {
+    console.error('Error:', error);
+    throw error;
+    }
+}
+
+//=========================================//
+//BATAS LLAMA3//
+//=========================================//
+
+exports.gpt4o = async (prompt) => {
+    let session_hash = Math.random().toString(36).substring(2).slice(1)
+    let resPrompt = await axios.post('https://kingnish-opengpt-4o.hf.space/run/predict?__theme=light', {
+        "data":[{
+            "text":prompt,
+            "files":[]
+        }],
+        "event_data":null,
+        "fn_index":3,
+        "trigger_id":34,
+        "session_hash":session_hash})
+    let res = await axios.post('https://kingnish-opengpt-4o.hf.space/queue/join?__theme=light', {
+        "data":[
+            null,
+            null,
+            "idefics2-8b-chatty",
+            "Top P Sampling",
+            0.5,
+            4096,
+            1,
+            0.9,
+            true
+        ],
+        "event_data":null,
+        "fn_index":5,
+        "trigger_id":34,
+        "session_hash": session_hash
+    })
+    let event_ID = res.data.event_id
+    let anu = await axios.get('https://kingnish-opengpt-4o.hf.space/queue/data?session_hash=' + session_hash)
+    const lines = anu.data.split('\n');
+const processStartsLine = lines.find(line => line.includes('process_completed'));
+
+if (processStartsLine) {
+    const processStartsData = JSON.parse(processStartsLine.replace('data: ', ''));
+    let ress = processStartsData.output.data
+    let result = ress[0][0][1]
+    return result
+} else {
+    return 'error kang!'
+}
+}
+//=========================================//
+//BATAS GPT4O//
+//=========================================//
+
+  
