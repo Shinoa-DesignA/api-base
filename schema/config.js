@@ -1,15 +1,15 @@
 const options = {
-  name: "HitamAPIs",
-  developer: "@sayuran.vip",
+  name: "ManaxuAPIs",
+  developer: "MannR.",
   port: 3000,
-  webName: "HitamAPIs Playground",
-  description: "Simple Base Rest API",
+  webName: "ManaxuAPIs Playground",
+  description: "Free Rest API",
   favicon:
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Black.png/220px-Black.png",
+    "https://telegra.ph/file/4db35e1d30e8d503918d8.jpg",
 };
 
 const host = {
-  BASE_URL: "https://api-flax-chi-68.vercel.app", // Ganti dengan URL yang sesuai
+  BASE_URL: "https://api.manaxu.my.id", // Ganti dengan URL yang sesuai
   // Contoh: https://domain.com
 };
 
