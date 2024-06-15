@@ -98,13 +98,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example: "Hello! How can I help you today?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -164,14 +159,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -213,14 +202,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -262,14 +245,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -311,14 +288,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -360,14 +331,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -409,14 +374,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -458,14 +417,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -507,14 +460,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -556,14 +503,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -573,7 +514,7 @@ const swaggerDocument = {
         },
       },
     },
-    /** "/api/cekresi/jnt": {
+    "/api/cekresi/jnt": {
       get: {
         tags: ["Cek Resi"],
         summary: "Check JNT Receipt",
@@ -605,14 +546,8 @@ const swaggerDocument = {
                       example: config.options.developer,
                     },
                     result: {
-                      type: "object",
-                      properties: {
-                        message: {
-                          type: "string",
-                          example:
-                            "Hello! How can I help you with your prompt?",
-                        },
-                      },
+                      type: "string",
+                      "data",
                     },
                   },
                 },
@@ -621,9 +556,10 @@ const swaggerDocument = {
           },
         },
       },
-    }, **/
+    },
   },
   "x-request-time": new Date().toISOString(),
 };
 
 module.exports = { swaggerDocument, options };
+  
