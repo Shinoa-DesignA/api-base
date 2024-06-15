@@ -72,7 +72,7 @@ const swaggerDocument = {
             description: inQuery,
           },
           {
-            in: "username",
+            in: "query",
             name: "username",
             schema: {
               type: "string",
@@ -115,7 +115,7 @@ const swaggerDocument = {
         summary: "Chat with GPT4",
         parameters: [
           {
-            in: "system",
+            in: "query",
             name: "system",
             schema: {
               type: "string",
@@ -124,7 +124,7 @@ const swaggerDocument = {
             description: inQuery,
           },
           {
-            in: "assistant",
+            in: "query",
             name: "assistant",
             schema: {
               type: "string",
@@ -133,7 +133,7 @@ const swaggerDocument = {
             description: inQuery,
           },
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -176,7 +176,7 @@ const swaggerDocument = {
         summary: "Chat with LeptonAi",
         parameters: [
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -219,7 +219,7 @@ const swaggerDocument = {
         summary: "Chat with LetmeGPT",
         parameters: [
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -262,7 +262,7 @@ const swaggerDocument = {
         summary: "Chat with Thinkany",
         parameters: [
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -305,7 +305,7 @@ const swaggerDocument = {
         summary: "Chat with IsouChat",
         parameters: [
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -348,7 +348,7 @@ const swaggerDocument = {
         summary: "Chat with YouSearch",
         parameters: [
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -391,7 +391,7 @@ const swaggerDocument = {
         summary: "Chat with Aoyo",
         parameters: [
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -434,7 +434,7 @@ const swaggerDocument = {
         summary: "Chat with Llama3",
         parameters: [
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -477,7 +477,7 @@ const swaggerDocument = {
         summary: "Chat with GPT4o",
         parameters: [
           {
-            in: "prompt",
+            in: "query",
             name: "prompt",
             schema: {
               type: "string",
@@ -562,4 +562,3 @@ const swaggerDocument = {
 };
 
 module.exports = { swaggerDocument, options };
-    
