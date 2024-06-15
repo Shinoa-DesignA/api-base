@@ -99,7 +99,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -160,7 +160,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -203,7 +203,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -246,7 +246,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -289,7 +289,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -332,7 +332,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -375,7 +375,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -418,7 +418,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -461,7 +461,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -504,7 +504,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -547,7 +547,7 @@ const swaggerDocument = {
                     },
                     result: {
                       type: "string",
-                      "data",
+                      example: "data",
                     },
                   },
                 },
@@ -562,4 +562,4 @@ const swaggerDocument = {
 };
 
 module.exports = { swaggerDocument, options };
-  
+    
