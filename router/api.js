@@ -472,4 +472,15 @@ router.get("/others/ppcouple", async (req, res) => {
   }
 });
 
+router.get("/oploverz/search"), async (req, res) => {
+  const { query } = req.query;
+  if (!query) return res.status(400).json(messages.url);
+  try {
+    const data = await require("../scrapers/oploverz")(query)
+    res.json({ status: true, developer: dev, result: data });
+  } catch (e) {
+    res.status(500).json(messages.error);
+  }
+}
+
 module.exports = router;
