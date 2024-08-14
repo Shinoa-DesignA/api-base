@@ -472,6 +472,18 @@ router.get("/others/ppcouple", async (req, res) => {
   }
 });
 
+router.get("/others/chwa", async (req, res) => {
+  const { query } = req.query;
+  if (!query) return res.status(400).json(messages.url);
+  try {
+    const data = await skrep5.chwa(query);
+    if (!data) return res.status(404).json(messages.notRes);
+    res.json({ status: true, developer: dev, result: data });
+  } catch (e) {
+    res.status(500).json(messages.error);
+  }
+});
+
 router.get("/oploverz/search"), async (req, res) => {
   const { query } = req.query;
   if (!query) return res.status(400).json(messages.url);
