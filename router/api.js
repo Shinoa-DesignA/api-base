@@ -400,7 +400,7 @@ router.get("/internet/topmanga", async (req, res) => {
 
 router.get("/internet/ttsearch", async (req, res) => {
   const { query } = req.query;
-  if (!query) return res.status(400).json(messages.url);
+  if (!query) return res.status(400).json(messages.query);
 
   try {
     const data = await skrep4.tiktoks(query);
@@ -412,8 +412,24 @@ router.get("/internet/ttsearch", async (req, res) => {
 });
 
 router.get("/internet/bukalapak", async (req, res) => {
+  const { query } = req.query;
+  if (!query) return res.status(400).json(messages.query)
+  
   try {
-    const data = await skrep4.bukalapak();
+    const data = await skrep4.bukalapak(query);
+    if (!data) return res.status(404).json(messages.notRes);
+    res.json({ status: true, developer: dev, result: data });
+  } catch (e) {
+    res.status(500).json(messages.error);
+  }
+});
+
+router.get("/internet/wikipedia", async (req, res) => {
+  const { query } = req.query;
+  if (!query) return res.status(400).json(messages.query)
+  
+  try {
+    const data = await skrep4.wikipedia(query);
     if (!data) return res.status(404).json(messages.notRes);
     res.json({ status: true, developer: dev, result: data });
   } catch (e) {
